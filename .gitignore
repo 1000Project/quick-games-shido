@@ -142,3 +142,17 @@ vite.config.ts.timestamp-*
 node_modules/
 .env
 .env.*
+# Hardhat build outputs
+artifacts/
+cache/
+
+# Node dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
