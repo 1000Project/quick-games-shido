@@ -1,0 +1,15 @@
+{
+  "name": "quick-games-shido",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:shido": "hardhat run scripts/deploy.js --network shido",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.12"
+  }
+}
