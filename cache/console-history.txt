@@ -1,6 +1,0 @@
-.exit
-npx hardhat run .\scripts\seed-and-play.js --network shido
-await coin.play(true, { value: ethers.parseEther("0.001") });
-await me.sendTransaction({ to: await coin.getAddress(), value: ethers.parseEther("0.25") });
-const coin = await ethers.getContractAt("CoinFlip", "PASTE_COINFLIP_ADDRESS");
-const [me] = await ethers.getSigners();
